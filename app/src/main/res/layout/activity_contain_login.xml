@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContainLoginActivity">
+
+    <ImageView
+        android:id="@+id/imglogin"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/backg" />
+
+    <TextView
+        android:id="@+id/txlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imglogin"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="Login to"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/txlogin2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txlogin"
+        android:layout_margin="5dp"
+        android:layout_centerHorizontal="true"
+        android:text="E-LearningOnline Classroom"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/txlogin3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txlogin2"
+        android:layout_margin="5dp"
+        android:layout_centerHorizontal="true"
+        android:text="as student"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+
+
+
+
+</RelativeLayout>

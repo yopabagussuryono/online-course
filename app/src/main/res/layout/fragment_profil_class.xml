@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.FragmentOnMainActivity.ProfilClassFragment"
+    android:background="@android:color/holo_blue_bright">
+
+    <RelativeLayout
+        android:id="@+id/viewpagepclss"
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Class in Progress"
+            android:textColor="@color/white"/>
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/vpclass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rcviewsclass"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/viewpagepclss"
+        android:background="@android:color/holo_blue_bright"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/txrv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select your class"
+            android:textColor="@color/white"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcclass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/txrv1"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PageNumberFragment"
+    android:padding="10dp">
+
+    <ImageButton
+        android:id="@+id/btnpgnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/spinnerbendera"/>
+
+    <EditText
+        android:id="@+id/edpgnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/btnpgnumber"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/bg_card_transparant"/>
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:hint="Login"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/edpgnumber"
+        android:background="@drawable/bg_card_btn_login"
+        android:textColorHint="@color/white" />
+
+    <TextView
+        android:id="@+id/txpglogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="or"
+        android:layout_below="@id/btnlogin"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btnlogin2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:hint="Login with Google Account"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txpglogin"
+        android:background="@drawable/bg_card_transparant"
+        android:textColorHint="@color/black"/>
+
+    <TextView
+        android:id="@+id/txlogin3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnlogin2"
+        android:layout_centerHorizontal="true"
+        android:text="Don't have account yet?"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/txlogin4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnlogin2"
+        android:layout_toRightOf="@id/txlogin3"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:text="Sign Up"
+        android:textSize="15sp"
+        android:textColor="@color/bluelight"
+        android:textStyle="italic"/>
+
+</RelativeLayout>

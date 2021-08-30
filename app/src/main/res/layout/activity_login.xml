@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/imglogin"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/backg" />
+
+    <TextView
+        android:id="@+id/txlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imglogin"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="Login to"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/txlogin2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txlogin"
+        android:layout_margin="5dp"
+        android:layout_centerHorizontal="true"
+        android:text="E-LearningOnline Classroom"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:hint="Login"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txlogin2"
+        android:background="@drawable/bg_card_orange"/>
+
+    <TextView
+        android:id="@+id/txlogin3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnlogin"
+        android:layout_centerHorizontal="true"
+        android:text="Don't have account yet?"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/txlogin4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnlogin"
+        android:layout_toRightOf="@id/txlogin3"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:text="Sign Up"
+        android:textSize="15sp"
+        android:textColor="@color/bluelight"
+        android:textStyle="italic"/>
+
+
+
+</RelativeLayout>

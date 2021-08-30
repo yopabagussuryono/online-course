@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.ActivityAssigment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tbasigmt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/crv1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/tbasigmt"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/bluelight"
+        app:cardCornerRadius="20dp">
+
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/rled"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/crv1">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txasig"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:gravity="top"
+            android:scrollbars="vertical"
+            android:overScrollMode="always"
+            android:scrollbarStyle="insideInset"
+            android:scrollHorizontally="false"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/whitedark"
+            android:hint="Write Something">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/txasig2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Attecment (Option)"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@id/rled"
+        android:layout_marginLeft="20dp"/>
+
+    <Button
+        android:id="@+id/btnasig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txasig2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:hint="Upload"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtitleimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txasig2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/btnasig"
+        android:text="judul gambar" />
+
+    <ImageView
+        android:id="@+id/tesimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txasig2"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/txtitleimg"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/txasig3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Note :"
+        android:layout_below="@id/btnasig"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/txtnote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txasig3"
+        android:text="-Format foto jpg, jpeg, Gif dan png 5MB"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="40dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtnote"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:hint="submit"
+        android:background="@color/bluelight"
+        />
+
+</RelativeLayout>

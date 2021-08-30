@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_card_black"
+    android:layout_alignParentBottom="true"
+    android:padding="20dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Activity.FragmentOnMainActivity.AqdFragment">
+
+    <TextView
+        android:id="@+id/tx1aqd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Classes"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:padding="12dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <RelativeLayout
+        android:id="@+id/relaqd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bf_card_yellow"
+        android:layout_below="@id/tx1aqd"
+        android:layout_margin="15dp">
+
+        <RelativeLayout
+            android:id="@+id/btnasigment"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/bg_card_green"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Assigment"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/bg_card_green"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quest"
+                android:textStyle="bold"
+                android:layout_centerInParent="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/bg_card_green"
+            android:layout_alignParentRight="true"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Discussion Board"
+                android:textStyle="bold"
+                android:layout_centerInParent="true"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/relaqd">
+
+        <RelativeLayout
+            android:id="@+id/relaqd1"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:gravity="center"
+            android:layout_margin="10dp">
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:padding="10dp"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:id="@+id/reltgl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="@drawable/bg_card_blue_bright"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/dateday"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textColor="@color/white"
+                        android:text="WED"/>
+
+                    <TextView
+                        android:id="@+id/datedate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="30sp"
+                        android:textColor="@color/white"
+                        android:text="10"/>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/relabsen"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/reltgl"
+                    android:background="@drawable/bg_blue_dark">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="100%"
+                        android:textSize="18sp"
+                        android:textColor="@color/white"/>
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/releven"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/relativeLayout"
+                android:orientation="vertical"
+                android:background="@drawable/bg_card_blue_bright">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EVENT"
+                    android:layout_margin="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"/>
+
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/vpassig1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="15dp"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@+id/relaqd1"
+            android:background="@drawable/cardradius"
+            android:layout_margin="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hai, Yopa bagus suryono"
+                android:textSize="14sp"
+                android:layout_margin="10dp"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

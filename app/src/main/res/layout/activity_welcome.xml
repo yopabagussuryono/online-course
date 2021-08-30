@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.ActivityWelcome"
+    android:background="@color/orange">
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="top"
+        android:src="@drawable/backgr" />
+
+    <TextView
+        android:id="@+id/txwel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HELLO"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:textSize="30sp"
+        android:layout_margin="10dp"
+        android:layout_below="@id/img1"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txwel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txwel"
+        android:text="Welcome to E-Learning \n\n Online Classroom"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txwel3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You can create reminder activity and take note \n\n to make easier for you to save important thing \n\n and can also insert photos and create desing in \n\n this app"
+        android:layout_below="@id/txwel2"
+        android:layout_marginLeft="10dp"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn_wlcm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_blue_dark"
+        android:text="Get Started            >"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"/>
+
+
+</RelativeLayout>

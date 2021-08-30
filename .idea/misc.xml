@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Homepage/app/src/main/res/layout/activity_assigment.xml" value="0.1" />
+        <entry key="..\:/Homepage/app/src/main/res/layout/alert_dialog_pick_file.xml" value="0.209375" />
+        <entry key="..\:/Users/samsung/AndroidStudioProjects/Homepage/app/src/main/res/drawable/bf_card_yellow.xml" value="0.2203125" />
+        <entry key="..\:/Users/samsung/AndroidStudioProjects/Homepage/app/src/main/res/drawable/bg_blue_dark.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/samsung/AndroidStudioProjects/Homepage/app/src/main/res/drawable/bg_card_black.xml" value="0.15648148148148147" />
+        <entry key="..\:/Users/samsung/AndroidStudioProjects/Homepage/app/src/main/res/drawable/bg_card_blue_bright.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/samsung/AndroidStudioProjects/Homepage/app/src/main/res/drawable/bg_card_btn_login.xml" value="0.2203125" />
+        <entry key="..\:/Users/samsung/AndroidStudioProjects/Homepage/app/src/main/res/drawable/bg_card_green.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/samsung/AndroidStudioProjects/Homepage/app/src/main/res/drawable/bg_card_orange.xml" value="0.2203125" />
+        <entry key="..\:/Users/samsung/AndroidStudioProjects/Homepage/app/src/main/res/drawable/bg_card_spin.xml" value="0.2203125" />
+        <entry key="..\:/Users/samsung/AndroidStudioProjects/Homepage/app/src/main/res/drawable/bg_card_transparant.xml" value="0.2203125" />
+        <entry key="..\:/Users/samsung/AndroidStudioProjects/Homepage/app/src/main/res/drawable/bghomepage.xml" value="0.16574074074074074" />
+        <entry key="..\:/Users/samsung/AndroidStudioProjects/Homepage/app/src/main/res/drawable/cardradius.xml" value="0.2203125" />
+        <entry key="..\:/Users/samsung/AndroidStudioProjects/Homepage/app/src/main/res/layout/activity_assigment.xml" value="0.22" />
+        <entry key="..\:/Users/samsung/AndroidStudioProjects/Homepage/app/src/main/res/layout/activity_contain_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/samsung/AndroidStudioProjects/Homepage/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/samsung/AndroidStudioProjects/Homepage/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/samsung/AndroidStudioProjects/Homepage/app/src/main/res/layout/activity_main2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/samsung/AndroidStudioProjects/Homepage/app/src/main/res/layout/activity_welcome.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/samsung/AndroidStudioProjects/Homepage/app/src/main/res/layout/alert_dialog_pick_file.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/samsung/AndroidStudioProjects/Homepage/app/src/main/res/layout/app_bar.xml" value="0.25" />
+        <entry key="..\:/Users/samsung/AndroidStudioProjects/Homepage/app/src/main/res/layout/custom_toolbar.xml" value="0.18" />
+        <entry key="..\:/Users/samsung/AndroidStudioProjects/Homepage/app/src/main/res/layout/fragment_aqd.xml" value="0.22" />
+        <entry key="..\:/Users/samsung/AndroidStudioProjects/Homepage/app/src/main/res/layout/fragment_aqd2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/samsung/AndroidStudioProjects/Homepage/app/src/main/res/layout/fragment_home.xml" value="0.16" />
+        <entry key="..\:/Users/samsung/AndroidStudioProjects/Homepage/app/src/main/res/layout/fragment_page_number.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/samsung/AndroidStudioProjects/Homepage/app/src/main/res/layout/fragment_profil_class.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/samsung/AndroidStudioProjects/Homepage/app/src/main/res/layout/item_container_vp_home.xml" value="0.6666666666666666" />
+        <entry key="..\:/Users/samsung/AndroidStudioProjects/Homepage/app/src/main/res/layout/item_rcview_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/samsung/AndroidStudioProjects/Homepage/app/src/main/res/layout/item_rcview_sclass.xml" value="0.25" />
+        <entry key="..\:/Users/samsung/AndroidStudioProjects/Homepage/app/src/main/res/layout/item_slidevp_home1.xml" value="0.25" />
+        <entry key="..\:/Users/samsung/AndroidStudioProjects/Homepage/app/src/main/res/layout/item_slidevp_home2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/samsung/AndroidStudioProjects/Homepage/app/src/main/res/layout/item_viewpage_profilclass.xml" value="0.25" />
+        <entry key="..\:/Users/samsung/AndroidStudioProjects/Homepage/app/src/main/res/layout/item_viewpager_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/samsung/AndroidStudioProjects/Homepage/app/src/main/res/layout/item_vpassigment.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/samsung/AndroidStudioProjects/Homepage/app/src/main/res/layout/list_menuhome.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/samsung/AndroidStudioProjects/Homepage/app/src/main/res/layout/main_container.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/samsung/AndroidStudioProjects/Homepage/app/src/main/res/layout/nav_header.xml" value="0.16" />
+        <entry key="..\:/Users/samsung/AndroidStudioProjects/Homepage/app/src/main/res/menu/nav_menu.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

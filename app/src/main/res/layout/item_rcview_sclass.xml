@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/holo_blue_bright">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:cardCornerRadius="15dp"
+            android:padding="10dp"
+            android:backgroundTint="@color/white">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/txtsclass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="XII IPA"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="30sp"/>
+
+                <TextView
+                    android:id="@+id/txtsclass2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3"
+                    android:textSize="30sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="40dp" />
+
+                <TextView
+                    android:id="@+id/txtsclass3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Student"
+                    android:textSize="10sp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_alignParentBottom="true"/>
+
+                <TextView
+                    android:id="@+id/txtsclass4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="30"
+                    android:layout_marginRight="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_alignParentBottom="true"/>
+
+                <ImageView
+                    android:id="@+id/imagesclass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_clas"
+                    android:layout_marginRight="10dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_alignParentBottom="true"/>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/txrcv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teacher"/>
+
+        <TextView
+            android:id="@+id/txrcv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txrcv"
+            android:layout_marginTop="10dp"
+            android:text="Name" />
+
+        <TextView
+            android:id="@+id/txrcv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="class"
+            android:layout_below="@id/txrcv2"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btnrvjoin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Join"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+</LinearLayout>
